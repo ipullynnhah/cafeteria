@@ -1,0 +1,231 @@
+body {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #604829;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header img {
+  width: 100px;
+  margin-left: 15%;
+}
+
+.nav {
+  position: absolute;
+  top: 35%;
+  right: 15%;
+}
+
+.nav a {
+  font-size: 18px;
+  color: #c4a47c;
+  text-shadow: 3px 3px #000;
+  margin-left: 15px;
+}
+
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner {
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.parallax1 {
+  background-image: url("../assets/parallax1.png");
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+  font-family: "Fraunces", serif;
+
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
+.text__container {
+  padding: 80px 0;
+}
+
+.info h2 {
+  font-size: 18px;
+  color: #c4a47c;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subtitle__parallax,
+.contacts h2,
+.contacts__container {
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+
+  color: #fff;
+  background-color: #604829;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.info h3 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  font-style: italic;
+
+  top: 45%;
+}
+
+.parallax2,
+.parallax3 {
+  height: 50vh;
+  position: relative;
+}
+
+.parallax2 {
+  background-image: url("../assets/parallax2.jpg");
+}
+
+.parallax3 {
+  background-image: url("../assets/parallax3.jpg");
+}
+
+.parallax4 {
+  height: 100vh;
+  background-image: url("../assets/parallax4.png");
+}
+
+.contacts {
+  position: relative;
+}
+
+.contacts h2 {
+  top: 10%;
+}
+
+iframe {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.contacts__container {
+  width: 500px;
+  bottom: 8%;
+  color: #fff;
+  background-color: #604829;
+}
+
+.contacts__container p {
+  text-shadow: 3px 3px 6px #000;
+  line-height: 1.8;
+}
+
+.contacts h2 {
+  font-size: 24px;
+}
+
+.schedules {
+  height: 85vh;
+  position: relative;
+  background: url("../assets/coffee-shop.jpg") center / cover;
+}
+
+.schedules h2 {
+  color: #fff;
+  font-size: 18px;
+
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+
+ul {
+  width: 768px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+}
+
+li {
+  width: 100%;
+  position: relative;
+  padding: 5px 0;
+}
+
+li h3 {
+  width: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.line {
+  width: 70%;
+  margin: 0 auto;
+  height: 1px;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background: #acacac;
+}
+
+li span {
+  color: #acacac;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.closed,
+.footer span {
+  color: #c4a47c;
+}
+
+.footer {
+  color: #fff;
+  background: #000;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footer p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+}
+
+.footer a {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+
+  top: -30px;
+  right: 50px;
+}
